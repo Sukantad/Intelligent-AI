@@ -23,13 +23,15 @@ app.post("/ai", async (req, res) => {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: "How are you?",
+      prompt: req.body.message,
+      max_tokens: 500,
     });
     res.status(200).send(response.data.choices[0].text);
   } catch (error) {
     res.status(400).send(error);
   }
 });
+
 
 app.listen(3050, () => {
   console.log("Server is Running");
