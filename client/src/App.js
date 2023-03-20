@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import Chat from "./Components/Chat";
+import ChatBox from "./Components/ChatBox";
 
 function App() {
   
   return (
     <div className="App">
-        <Chat/>
+      <ChatBox/>
     </div>
   );
 }
