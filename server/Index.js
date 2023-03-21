@@ -1,6 +1,8 @@
-import express from "express";
-import cors from "cors";
-import aiRouter from "./Controller/ChatController.js";
+const express = require("express");
+
+const cors = require("cors");
+
+const aiRouter = require("./Controller/ChatController");
 
 const app = express();
 app.use(cors());
