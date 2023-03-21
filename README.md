@@ -1,6 +1,6 @@
 # Inteligent.Ai
  
- * This is a basically ai chat web app, here you can search anything what ever you want.
+ * This is a Ai chat web app, here you can search anything what ever you want.
 
  ### Tech Stack
  * React 
