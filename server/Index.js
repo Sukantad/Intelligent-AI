@@ -1,7 +1,6 @@
 const express = require("express");
 
 const cors = require("cors");
-
 const aiRouter = require("./Controller/ChatController");
 
 const app = express();
