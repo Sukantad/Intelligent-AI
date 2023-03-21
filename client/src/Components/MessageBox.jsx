@@ -20,9 +20,9 @@ function MessageBox({ loading, data }) {
                         </Box>
                     ))
                 }   
-                         {loading ? <Img  mt={'-30px'} src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" w={'100px'} alt="" /> : ""}
+                         {loading ? <Img  mt={'30px'}  src="https://user-images.githubusercontent.com/3059371/49334754-3c9dfe00-f5ab-11e8-8885-0192552d12a1.gif" w={'100px'} alt="" /> : ""}
 
-                </ScrollableFeed> : <Img mt="80px" w={["95%","50%"]} m="auto" src="https://www.webtunix.ai/static/img/rotatebrain.gif"/>}
+                </ScrollableFeed> : <Img  w={["95%","50%"]} m="auto"  src="https://www.webtunix.ai/static/img/rotatebrain.gif"/>}
         </Box>
     );
 }
