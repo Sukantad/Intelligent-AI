@@ -10,7 +10,7 @@ function ChatBox() {
 
     return (
         <div>
-            {/* <Header/>  */}
+            <Header/> 
             <MessageBox loading={loading} Question={Question} data={data} />
             <ChatInput setQuestion={setQuestion} setdata={setdata} setLoading={setLoading} data={data} Question={Question} />
         </div>
