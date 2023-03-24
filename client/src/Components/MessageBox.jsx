@@ -10,10 +10,10 @@ function MessageBox({ loading, data }) {
                 {
                     data?.map((ele, i) => (
                         <Box key={i}>
-                            {ele.send == "man" ? <Text bg={'black'} color='white' borderRadius={'5px'} maxW={['80%',"50%"]}
+                            {ele.send == "man" ? <Text bg={'blackAlpha.800'} color='white' borderRadius={'5px'} maxW={['80%',"50%"]}
                                 w='fit-content' m='5px' p="5px" ml={'auto'} wordBreak='break-word'> {ele.name}</Text>
                                 :
-                                <Text bg={'black'} color='white' borderRadius={'5px'} maxW={['80%',"70%"]} w='fit-content' m='5px'
+                                <Text bg={'blackAlpha.800'} color='white' borderRadius={'5px'} maxW={['80%',"70%"]} w='fit-content' m='5px'
                                     p="5px" mr={'auto'} wordBreak='break-word'> {ele.name}
                                 </Text>
                             }

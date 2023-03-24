@@ -10,14 +10,14 @@ function ChatInput({ Question, setLoading, data, setdata }) {
             name: ref.current.value,
             send: "man",
         }
-        ref.current.value && setdata([...data, obj])
-         ref.current.value = "";
+        setdata([...data, obj])
+        
         var msg = {
             message: ref.current.value
         }
 
         var res = await getQuestion(msg);
-       
+        ref.current.value = "";
         var receiver = {
             name: res,
             send: "ai"
@@ -35,12 +35,13 @@ function ChatInput({ Question, setLoading, data, setdata }) {
                 send: "man",
             }
             setdata([...data, obj])
-            ref.current.value = "";
+         
             var msg = {
                 message: ref.current.value
             }
 
             var res = await getQuestion(msg);
+            ref.current.value = "";
             var receiver = {
                 name: res,
                 send: "ai"
