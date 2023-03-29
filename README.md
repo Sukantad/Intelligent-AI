@@ -10,11 +10,11 @@
  * GTP-Api
  
  #### Home page 
- <img src="./readmeImages/homepage.png">
+ <img src="./readmeImages/home.png">
 
  #### When Ai is typing 
-<img src="./readmeImages/loading.png">
+<img src="./readmeImages/typing.png">
  
   #### After ai send answer
-  <img src="./readmeImages/message.png">
+  <img src="./readmeImages/body.png">
 
