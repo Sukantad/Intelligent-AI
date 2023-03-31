@@ -5,14 +5,6 @@ import ScrollableFeed from 'react-scrollable-feed'
 function MessageBox({ loading, data }) {
   
     return (
-
-
-        // <div>
-        //     <button onClick={SpeechRecognition.startListening}>Start</button>
-        //     <button onClick={SpeechRecognition.stopListening}>Stop</button>
-        //     <button onClick={resetTranscript}>Reset</button>
-        //     <p>{transcript}</p>
-        // </div>
         <Box fontFamily={'Lora'} className='example' w={["95%","80%"]} h={["72vh","76vh"]} m="auto" overflow={'scroll'} boxShadow='dark-lg' borderRadius={'10px'} mt="10px" p="15px" >
           {data.length?  <ScrollableFeed className='example'>
                 {
